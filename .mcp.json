@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "sloyd": {
+      "type": "http",
+      "url": "https://api.sloyd.ai/api/mcp",
+      "headers": {
+        "x-client-id": "${SLOYD_CLIENT_ID}",
+        "x-client-secret": "${SLOYD_CLIENT_SECRET}"
+      }
+    }
+  }
+}

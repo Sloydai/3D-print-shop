@@ -1,0 +1,13 @@
+{
+  "done": true,
+  "jobId": "ejzns5mc",
+  "outputs": {
+    "imageUrl": "https://storage.googleapis.com/ai-services-quality/jobs/ejzns5mc.webp"
+  },
+  "prompt": "Photograph of a small 3D printed multi-colour PLA owl figurine, exactly the owl in the reference: brown body and wings, cream face and belly, dark brown eyes, orange beak and feet, standing on a sunlit white-painted wooden windowsill with a small potted succulent behind it, 80 mm tall, matte PLA plastic with faint horizontal layer lines visible on its surface, crisp colour boundaries between the flat colour regions, soft morning light through the window, shallow depth of field, shot on a phone camera, photorealistic, vertical",
+  "service": "TEXT-TO-IMAGE",
+  "status": "success",
+  "title": "",
+  "id": "ejzns5mc",
+  "savedTo": "examples/desk-owl/reel/still_A.png"
+}

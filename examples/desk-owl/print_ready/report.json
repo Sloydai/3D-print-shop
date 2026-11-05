@@ -1,0 +1,128 @@
+{
+  "source": "model.glb (not published)",
+  "settings": {
+    "name": "desk-owl",
+    "height": 80.0,
+    "max_dim": null,
+    "width": null,
+    "depth": null,
+    "scale": null,
+    "up": null,
+    "rotate": null,
+    "tech": "fdm",
+    "nozzle": 0.4,
+    "printer": "bambu-a1",
+    "base": "auto",
+    "plinth_height": 3.0,
+    "label": null,
+    "parts": false,
+    "explode": false,
+    "slots": 4,
+    "repair": "auto",
+    "voxel_pitch": null,
+    "max_faces": 300000,
+    "samples": 6000,
+    "preview": true
+  },
+  "stats": {
+    "watertight": true,
+    "winding_consistent": true,
+    "bodies": 1,
+    "faces": 95248,
+    "size_mm": [
+      73.3,
+      64.5,
+      80.0
+    ],
+    "volume_cm3": 189.32,
+    "surface_cm2": 177.9,
+    "tech": "fdm",
+    "thresholds": {
+      "min_wall": 0.8,
+      "warn_wall": 1.2,
+      "overhang_deg": 45.0,
+      "density": 1.24,
+      "material": "PLA"
+    },
+    "filament_estimate_g": 57.7,
+    "filament_estimate_note": "PLA, 2 walls, 15% infill; your slicer gives the exact number",
+    "printer": {
+      "name": "Bambu Lab A1",
+      "build_volume_mm": [
+        256,
+        256,
+        256
+      ],
+      "fits": true
+    },
+    "wall_thickness_mm": {
+      "min_p1": 8.46,
+      "p5": 33.65,
+      "median": 60.34,
+      "thin_area_pct": 0.0,
+      "samples": 6000
+    },
+    "overhangs": {
+      "limit_deg_from_vertical": 45.0,
+      "area_mm2": 1946.0,
+      "pct_of_surface": 10.9
+    },
+    "support_islands": {
+      "count": 9,
+      "lowest": [
+        {
+          "x": -11.2,
+          "y": -22.5,
+          "z": 2.8
+        },
+        {
+          "x": 11.5,
+          "y": -22.1,
+          "z": 2.8
+        },
+        {
+          "x": -6.7,
+          "y": -22.2,
+          "z": 3.1
+        },
+        {
+          "x": 6.7,
+          "y": -22.8,
+          "z": 3.1
+        },
+        {
+          "x": -15.9,
+          "y": -21.7,
+          "z": 3.2
+        }
+      ]
+    },
+    "stability": {
+      "contact_area_mm2": 529.0,
+      "com_over_base": true,
+      "com_height_mm": 36.7
+    }
+  },
+  "warnings": [
+    {
+      "code": "overhangs",
+      "message": "10.9% of the surface overhangs more than 45 deg (z 0-5 mm, z 5-10 mm, z 40-45 mm); 9 spot(s) start in mid-air, lowest at z 2.8 mm.",
+      "fix": "Enable supports: tree supports (Bambu Studio / OrcaSlicer: Support > Type 'tree(auto)'; PrusaSlicer: 'Organic'), threshold 45 deg, or rotate the model so the flat side is down."
+    }
+  ],
+  "parts": [],
+  "steps": [
+    "loaded 1 mesh part(s) from model.glb, Y-up -> Z-up",
+    "scaled x615.4 to 70.0 x 61.6 x 80.0 mm",
+    "desk-owl: 100,000 faces, 3 shell(s), 0 open",
+    "desk-owl: unioned 3 shells into one solid",
+    "removed 2 floating speck(s) smaller than 0.2% of the main body",
+    "flattened base: cut 1.11 mm off the bottom, contact area 397 mm2 (target 376 mm2)",
+    "re-fitted to the requested size (x1.0476) after base and cleanup"
+  ],
+  "outputs": {
+    "preview": "desk-owl_preview.png",
+    "report_json": "report.json",
+    "report_md": "report.md"
+  }
+}

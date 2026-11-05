@@ -1,0 +1,17 @@
+{
+  "name": "sloyd-3d-print-shop",
+  "owner": {
+    "name": "Sloyd",
+    "url": "https://www.sloyd.ai"
+  },
+  "metadata": {
+    "description": "Sloyd skill teams for coding agents."
+  },
+  "plugins": [
+    {
+      "name": "3d-print-shop",
+      "description": "3D Print Shop: describe it, print it. Printable prompt design, Sloyd 3D generation, watertight STL/3MF in real mm, multi-colour AMS parts, gifts and a social reel plan.",
+      "source": "./"
+    }
+  ]
+}

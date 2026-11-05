@@ -1,0 +1,251 @@
+{
+  "source": "model.glb (not published)",
+  "settings": {
+    "name": "desk-owl-ams",
+    "height": 80.0,
+    "max_dim": null,
+    "width": null,
+    "depth": null,
+    "scale": null,
+    "up": null,
+    "rotate": null,
+    "tech": "fdm",
+    "nozzle": 0.4,
+    "printer": "bambu-a1",
+    "base": "auto",
+    "plinth_height": 3.0,
+    "label": null,
+    "parts": true,
+    "explode": false,
+    "slots": 4,
+    "colors": "Foot_*=orange,*=brown",
+    "repair": "auto",
+    "voxel_pitch": null,
+    "max_faces": 300000,
+    "samples": 6000,
+    "preview": true
+  },
+  "stats": {
+    "watertight": true,
+    "winding_consistent": true,
+    "bodies": 6,
+    "faces": 104280,
+    "size_mm": [
+      73.4,
+      64.6,
+      80.0
+    ],
+    "volume_cm3": 189.77,
+    "surface_cm2": 267.6,
+    "tech": "fdm",
+    "thresholds": {
+      "min_wall": 0.8,
+      "warn_wall": 1.2,
+      "overhang_deg": 45.0,
+      "density": 1.24,
+      "material": "PLA"
+    },
+    "filament_estimate_g": 69.1,
+    "filament_estimate_note": "PLA, 2 walls, 15% infill; your slicer gives the exact number",
+    "printer": {
+      "name": "Bambu Lab A1",
+      "build_volume_mm": [
+        256,
+        256,
+        256
+      ],
+      "fits": true
+    },
+    "wall_thickness_mm": {
+      "min_p1": 1.72,
+      "p5": 4.61,
+      "median": 47.07,
+      "thin_area_pct": 0.4,
+      "samples": 6000
+    },
+    "overhangs": {
+      "limit_deg_from_vertical": 45.0,
+      "area_mm2": 4363.0,
+      "pct_of_surface": 16.3
+    },
+    "support_islands": {
+      "count": 15,
+      "lowest": [
+        {
+          "x": 11.5,
+          "y": -22.1,
+          "z": 2.8
+        },
+        {
+          "x": -11.2,
+          "y": -22.5,
+          "z": 2.8
+        },
+        {
+          "x": -11.5,
+          "y": -20.4,
+          "z": 2.9
+        },
+        {
+          "x": 6.7,
+          "y": -22.8,
+          "z": 3.0
+        },
+        {
+          "x": -6.7,
+          "y": -22.2,
+          "z": 3.0
+        }
+      ]
+    },
+    "stability": {
+      "contact_area_mm2": 559.0,
+      "com_over_base": true,
+      "com_height_mm": 36.7
+    }
+  },
+  "warnings": [
+    {
+      "code": "no_texture_colour",
+      "message": "The model's texture has no colour (grayscale, e.g. an ambient-occlusion-only map), so part colours can't be read from it.",
+      "fix": "Pass --colors with a filament per part name (see the concept image), or assign filaments in the slicer."
+    },
+    {
+      "code": "overhangs",
+      "message": "16.3% of the surface overhangs more than 45 deg (z 0-5 mm, z 35-40 mm, z 40-45 mm); 15 spot(s) start in mid-air, lowest at z 2.8 mm.",
+      "fix": "Enable supports: tree supports (Bambu Studio / OrcaSlicer: Support > Type 'tree(auto)'; PrusaSlicer: 'Organic'), threshold 45 deg, or rotate the model so the flat side is down."
+    }
+  ],
+  "parts": [
+    {
+      "name": "Body",
+      "file": "(not published)",
+      "size_mm": [
+        57.7,
+        61.1,
+        41.4
+      ],
+      "watertight": true,
+      "color_rgb": [
+        110,
+        70,
+        40
+      ],
+      "filament": "brown",
+      "slot": 1,
+      "slot_filament": "brown"
+    },
+    {
+      "name": "Foot_Left",
+      "file": "(not published)",
+      "size_mm": [
+        14.6,
+        7.8,
+        8.9
+      ],
+      "watertight": true,
+      "color_rgb": [
+        240,
+        120,
+        30
+      ],
+      "filament": "orange",
+      "slot": 2,
+      "slot_filament": "orange"
+    },
+    {
+      "name": "Foot_Right",
+      "file": "(not published)",
+      "size_mm": [
+        14.6,
+        7.7,
+        8.9
+      ],
+      "watertight": true,
+      "color_rgb": [
+        240,
+        120,
+        30
+      ],
+      "filament": "orange",
+      "slot": 2,
+      "slot_filament": "orange"
+    },
+    {
+      "name": "Head",
+      "file": "(not published)",
+      "size_mm": [
+        58.4,
+        62.2,
+        42.9
+      ],
+      "watertight": true,
+      "color_rgb": [
+        110,
+        70,
+        40
+      ],
+      "filament": "brown",
+      "slot": 1,
+      "slot_filament": "brown"
+    },
+    {
+      "name": "Wing_Left",
+      "file": "(not published)",
+      "size_mm": [
+        10.2,
+        32.6,
+        35.8
+      ],
+      "watertight": true,
+      "color_rgb": [
+        110,
+        70,
+        40
+      ],
+      "filament": "brown",
+      "slot": 1,
+      "slot_filament": "brown"
+    },
+    {
+      "name": "Wing_Right",
+      "file": "(not published)",
+      "size_mm": [
+        10.2,
+        32.6,
+        35.8
+      ],
+      "watertight": true,
+      "color_rgb": [
+        110,
+        70,
+        40
+      ],
+      "filament": "brown",
+      "slot": 1,
+      "slot_filament": "brown"
+    }
+  ],
+  "steps": [
+    "loaded 6 mesh part(s) from parts.glb, Y-up -> Z-up",
+    "part colours set by name: Foot_*=orange,*=brown",
+    "scaled x615.4 to 70.0 x 61.6 x 80.0 mm",
+    "Body: 37,796 faces, 1 shell(s), 0 open",
+    "Foot_Left: 4,584 faces, 2 shell(s), 0 open",
+    "Foot_Left: unioned 2 shells into one solid",
+    "Foot_Right: 4,592 faces, 2 shell(s), 0 open",
+    "Foot_Right: unioned 2 shells into one solid",
+    "Head: 47,266 faces, 1 shell(s), 0 open",
+    "Wing_Left: 7,478 faces, 1 shell(s), 0 open",
+    "Wing_Right: 7,460 faces, 1 shell(s), 0 open",
+    "flattened base: cut 3.70 mm off the bottom, contact area 426 mm2 (target 376 mm2)",
+    "re-fitted to the requested size (x1.0485) after base and cleanup",
+    "parts could not be unioned; the combined STL holds them as separate shells (slicers merge them)",
+    "filament slots: 1=brown, 2=orange"
+  ],
+  "outputs": {
+    "preview": "desk-owl-ams_preview.png",
+    "report_json": "report.json",
+    "report_md": "report.md"
+  }
+}

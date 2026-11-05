@@ -1,0 +1,16 @@
+{
+  "name": "3d-print-shop",
+  "displayName": "3D Print Shop",
+  "description": "Describe it. Print it. A team of skills that turns a description, photo or sketch into a print-ready STL/3MF for Bambu Lab, Prusa and Elegoo printers, powered by the Sloyd API: printable prompt design, 3D generation, watertight repair and mm scaling, multi-colour AMS parts, personalised gifts and a social reel plan.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Sloyd",
+    "url": "https://www.sloyd.ai"
+  },
+  "homepage": "https://github.com/Sloydai/3D-print-shop",
+  "repository": "https://github.com/Sloydai/3D-print-shop",
+  "license": "MIT",
+  "icon": ".claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://www.sloyd.ai/privacy-policy",
+  "keywords": ["3d-printing", "stl", "3mf", "bambu-lab", "prusa", "elegoo", "ams", "sloyd", "text-to-3d", "image-to-3d"]
+}

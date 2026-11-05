@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+.venv/
+# generated print jobs and models stay local
+print-jobs/
+*.glb
+*.gltf
+*.stl
+*.3mf
+*.obj
+*.ply

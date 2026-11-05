@@ -1,0 +1,81 @@
+{
+  "slug": "desk-owl",
+  "request": "A cute owl for my desk, 80 mm, Bambu A1 with AMS lite, 4 colours, as few supports as possible",
+  "purpose": "display",
+  "size_mm": {
+    "height": 80
+  },
+  "tech": "fdm",
+  "printer": "bambu-a1",
+  "colors": 4,
+  "supports": "some",
+  "source": "text",
+  "prompt": "A cute chubby owl figurine sitting upright with its wings folded tight against its body, big round eyes, small beak, short ear tufts, chunky stylised proportions, thick feet tucked under the body, single solid connected piece, no thin protrusions, no floating parts, sitting on a flat round base, distinct colour regions in 4 flat solid colours: brown body, cream belly, yellow eyes, orange beak and feet, 3D printable figurine",
+  "style": "Color3DPrint",
+  "texture": "auto",
+  "jobs": [
+    {
+      "role": "modeler",
+      "tool": "generate_3d_from_text",
+      "jobId": "(model job ID not published)",
+      "credits": 25,
+      "seconds": 110
+    },
+    {
+      "role": "multi-color-splitter",
+      "tool": "split_model_into_parts",
+      "jobId": "(split job ID not published)",
+      "credits": 40,
+      "seconds": 220,
+      "args": {
+        "method": "partition",
+        "numberOfParts": 6
+      }
+    },
+    {
+      "role": "reel-maker",
+      "tool": "upload_image",
+      "jobId": "3oxbl9yo",
+      "credits": 0,
+      "note": "Sloyd's own concept image for job (model job ID not published), used as identity reference"
+    },
+    {
+      "role": "reel-maker",
+      "tool": "generate_image",
+      "jobId": "ejzns5mc",
+      "credits": 10,
+      "output": "reel/still_A.png"
+    },
+    {
+      "role": "reel-maker",
+      "tool": "edit_image",
+      "jobId": "qlijf8ar",
+      "credits": 15,
+      "output": "reel/still_B.png"
+    }
+  ],
+  "outputs": {
+    "note": "3D model files are not published in this repo; screenshots only.",
+    "reports": [
+      "print_ready/report.md",
+      "print_ready_ams/report.md"
+    ],
+    "screenshots": [
+      "screenshots/1_sloyd_model.png",
+      "screenshots/2_print_ready_front.png",
+      "screenshots/3_print_ready_back.png"
+    ],
+    "reel": [
+      "reel/still_A.png",
+      "reel/still_B.png",
+      "reel/turntable.mp4",
+      "reel/shotlist.md"
+    ],
+    "tweet_hero": "tweet_hero.png"
+  },
+  "credits": {
+    "before": 505,
+    "spent": 90,
+    "after": 415
+  }
+}

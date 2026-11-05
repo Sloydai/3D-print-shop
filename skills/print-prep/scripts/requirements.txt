@@ -1,0 +1,15 @@
+trimesh>=4.5
+numpy>=1.26
+scipy>=1.11
+networkx>=3.0
+lxml>=5.0
+shapely>=2.0
+manifold3d>=3.0
+fast_simplification>=0.1.7
+scikit-image>=0.22
+rtree>=1.2
+Pillow>=10.0
+matplotlib>=3.8
+# optional
+# embreex        # faster ray casting for wall thickness on large meshes
+# imageio imageio-ffmpeg   # turntable MP4 in render.py
